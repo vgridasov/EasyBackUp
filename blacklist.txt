@@ -1,0 +1,140 @@
+# Черный список папок и файлов для исключения из резервного копирования
+# Каждая строка - это название папки или файла для исключения
+
+# Папки виртуальных окружений Python
+.venv
+venv
+env
+.env
+__pycache__
+.pytest_cache
+.tox
+.coverage
+
+# Node.js
+node_modules
+.npm
+.yarn
+.pnpm-store
+bower_components
+
+# Системные папки macOS
+.DS_Store
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+Library
+.Trash
+
+# Системные папки Windows
+AppData
+LocalLow
+ntuser.dat
+NTUSER.DAT
+pagefile.sys
+hiberfil.sys
+System Volume Information
+$Recycle.Bin
+Thumbs.db
+desktop.ini
+
+# Системные папки Linux
+.cache
+.local
+.config
+.mozilla
+.gnome
+.kde
+.wine
+.steam
+snap
+
+# Папки IDE и редакторов
+.vscode
+.idea
+.sublime-text
+.atom
+.brackets
+.eclipse
+.netbeans
+
+# Папки систем контроля версий
+.git
+.svn
+.hg
+.bzr
+CVS
+
+# Временные папки и файлы
+tmp
+temp
+.tmp
+.temp
+~$*
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# Папки браузеров
+.firefox
+.chrome
+.chromium
+.safari
+.opera
+.edge
+
+# Папки компиляторов и сборки
+build
+dist
+out
+target
+bin
+obj
+.gradle
+.m2
+.ivy2
+
+# Папки Docker
+.docker
+
+# Папки Vagrant
+.vagrant
+
+# Папки баз данных (рабочие файлы)
+mysql-bin.*
+postgresql
+
+# Папки виртуализации
+VirtualBox VMs
+VMware
+Parallels
+
+# Папки мессенджеров (кэш)
+Telegram Desktop
+WhatsApp
+Skype
+Discord
+Slack
+
+# Игровые папки
+Steam
+Epic Games
+GOG Galaxy
+Battle.net
+Origin
+
+# Torrents
+.utorrent
+.bittorrent
+transmission
+
+# Backup папки других программ
+Backup
+Backups
+.backup
+.bak
